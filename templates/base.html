@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovators</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stiles.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='images/images.png') }}" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/about">Quiénes Somos</a></li>
+                <li><a href="/services">Servicios</a></li>
+                <li><a href="/news">Noticias</a></li>
+                <li><a href="/contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>© 2024 Tech Innovators - Todos los derechos reservados</p>
+        <div class="socials">
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>

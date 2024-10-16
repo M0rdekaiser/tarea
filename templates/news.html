@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="news">
+        <h1>Últimas Noticias</h1>
+        <article class="news-item">
+            <img src="{{ url_for('static', filename='web.png') }}" alt="Noticia 1">
+            <h2>Nueva oficina en Madrid</h2>
+            <p>Estamos emocionados de anunciar nuestra nueva sede en el altp.</p>
+        </article>
+    </section>
+{% endblock %}

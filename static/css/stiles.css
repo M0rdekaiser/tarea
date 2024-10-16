@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #015586;
+    color: #333;
+}
+
+header {
+    background-color: #068d186b;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.hero {
+    background-color: #cd5501;
+    padding: 40px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #aa2800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.testimonials, .services, .news, .contact {
+    padding: 20px;
+}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="contact">
+        <h1>Contáctanos</h1>
+        <form action="/contact" method="POST">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="message" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Dirección:</strong> cruze villadela pacajes</p>
+            <p><strong>Teléfono:</strong> +591 76284187</p>
+            <p><strong>Email:</strong> contacto@techinnovators.com</p>
+        </div>
+    </section>
+{% endblock %}

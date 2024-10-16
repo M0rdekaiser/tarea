@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="about-us">
+        <h1>Quiénes Somos</h1>
+        <p>Tech Innovators fue fundada en 2010 con la misión de crear tecnología accesible para todos. Nuestra visión es liderar la innovación a nivel global.</p>
+        
+        <h2>Nuestro Equipo</h2>
+        <div class="team">
+            <img src="{{ url_for('static', filename='images/web.png') }}" alt="Miembro del equipo">
+            <p>Juan Pérez - CEO</p>
+        </div>
+    </section>
+{% endblock %}
